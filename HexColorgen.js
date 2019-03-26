@@ -1,5 +1,6 @@
 let main = document.querySelector("main");
 const input = document.querySelector(".input");
+
 const button = document.querySelector(".button");
 button.addEventListener("click", generateDivs);
 
@@ -21,20 +22,13 @@ function generateDivs(number) {
     main.appendChild(colorDiv);
     colorDiv.classList.add("colorDiv-style");
     colorDiv.innerHTML = "";
+
     colorDiv.style.background = color;
     colorDiv.innerHTML = color;
-    let button2 = document.createElement("button");
-    button2.classList.add("copybutton");
-    colorDiv.appendChild(button2);
-    button2.innerHTML = "Copy";
-    button2.addEventListener("click", () => {
-      colorDiv.clipboard.writeText(color);
+    colorDiv.addEventListener("click", () => {
+      navigator.clipboard.writeText(color);
     });
+
+    main.appendChild(colorDiv);
   }
 }
-
-document.querySelector(".buttonClear");
-addEventListener("click", function(e) {
-  e.target.colorDiv.innerHTML = "";
-  // document.querySelector(main).innerHTML = "";
-});
