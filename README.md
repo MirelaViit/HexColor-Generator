@@ -15,3 +15,5 @@ This project is licensed under the MIT License - see the LICENSE.md file for det
 ### Acknowledgments
 
 Everyone at Integrify, especially my teacher and classmates.
+
+2019 [mirela](https://github.com/MirelaViit)
