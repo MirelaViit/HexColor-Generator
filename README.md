@@ -2,7 +2,7 @@
 
 ---
 
-### Demo
+### [Demo](https://mirelaviit.github.io/HexColor-Generator/)
 
 ### Author
 
