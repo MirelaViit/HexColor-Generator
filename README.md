@@ -1,6 +1,6 @@
-### Title
+### HexColor Generator
 
-HexColor Generator
+---
 
 ### Demo
 
